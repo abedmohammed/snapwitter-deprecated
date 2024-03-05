@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto Mono", monospace;
+  padding: 50px;
+  color: #ffffff;
+  background-color: #14213d;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.apology {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.prompt {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fca311;
+  cursor: pointer;
+}
